@@ -1,0 +1,53 @@
+# === Node ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Logs ===
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === Environment Variables ===
+.env
+.env.* 
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Testing ===
+coverage/
+.nyc_output/
+
+# === Build ===
+dist/
+build/
+tmp/
+temp/
+
+# === Firebase Admin SDK keys (for safety, don't include the actual JSON) ===
+serviceAccountKey.json
+
+# === MongoDB dump files ===
+dump/
+
+# === Optional ===
+*.tgz
+*.bak
+*.orig
+*.swp
+
+# === TypeScript (if used) ===
+*.tsbuildinfo

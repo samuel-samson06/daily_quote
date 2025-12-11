@@ -1,0 +1,20 @@
+{
+  "name": "daily_quotes",
+  "version": "1.0.0",
+  "description": "This is just a random project to send me daily quotes until I loose my email 😂",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon server.js"
+  },
+  "author": "samuel-sampson06",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "node-quotegen": "^0.0.2",
+    "resend": "^6.6.0"
+  }
+}
