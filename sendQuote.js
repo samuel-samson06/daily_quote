@@ -1,5 +1,5 @@
 require("dotenv").config();
-// Your Resend API key (get the key from resend.com)
+// Your Resend API key (get the key from resend.com)(resend is what would handle the email delivery for you incase you're not familiar with it)
 const resend_api_key = process.env.RESEND_API_KEY;
 const cronJob = require("node-cron");
 const {Resend} = require("resend");
