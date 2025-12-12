@@ -68,6 +68,6 @@ const resend_mail_function = async ()=>{
 
 }
 
-cronJob.schedule("0 6 * * *",()=>{
+cronJob.schedule("* * * * *",()=>{
     resend_mail_function();
 })
