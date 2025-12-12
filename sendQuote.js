@@ -67,7 +67,7 @@ const resend_mail_function = async ()=>{
     console.log("Email sent:", data);
 
 }
-
+//I don't really know how to order CRON Job schedules yet, but this schedule is to deliver aat 6am everyday
 cronJob.schedule("0 6 * * *",()=>{
     resend_mail_function();
 })
